@@ -14,13 +14,14 @@ import PizzaTranslator from './components/PizzaTranslator'
 import ButtonBasics from './components/ButtonBasics'
 import Touchables from './components/Touchables'
 import IScrolledDownAndWhatHappenedNextShockedMe from './components/IScrolledDownAndWhatHappenedNextShockedMe'
+import FlatListBasics from './components/FlatList'
+import SectionListBasics from './components/SectionList'
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        
-        <IScrolledDownAndWhatHappenedNextShockedMe />
+        <SectionListBasics />
       </View>
     );
   }
@@ -39,6 +40,8 @@ export default class App extends React.Component {
 //<PizzaTranslator />
 //<ButtonBasics />
 //<Touchables />
+//<IScrolledDownAndWhatHappenedNextShockedMe />
+//<FlatListBasics />
 
 const styles = StyleSheet.create({
   container: {
