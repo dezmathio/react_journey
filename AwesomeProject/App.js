@@ -8,6 +8,7 @@ import LotsOfStyles from './components/LotsOfStyles'
 import FixedDimensionsBasics from './components/FixedDimensionsBasics'
 import FlexDimensionsBasics from './components/FlexDimensionsBasics'
 import FlexDirectionBasics from './components/FlexDirectionBasics'
+import JustifyContentBasics from './components/JustifyContentBasics'
 
 export default class App extends React.Component {
   render() {
@@ -21,6 +22,7 @@ export default class App extends React.Component {
         <FixedDimensionsBasics />
         <FlexDimensionsBasics />
         <FlexDirectionBasics />
+        <JustifyContentBasics />
       </View>
     );
   }
