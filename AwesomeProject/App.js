@@ -9,24 +9,36 @@ import FixedDimensionsBasics from './components/FixedDimensionsBasics'
 import FlexDimensionsBasics from './components/FlexDimensionsBasics'
 import FlexDirectionBasics from './components/FlexDirectionBasics'
 import JustifyContentBasics from './components/JustifyContentBasics'
+import AlignItemsBasics from './components/AlignItemsBasics'
+import PizzaTranslator from './components/PizzaTranslator'
+import ButtonBasics from './components/ButtonBasics'
+import Touchables from './components/Touchables'
+import IScrolledDownAndWhatHappenedNextShockedMe from './components/IScrolledDownAndWhatHappenedNextShockedMe'
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <HelloWorldApp />
-        <LotsOfGreetings />
-        <Bananas />
-        <BlinkApp />
-        <LotsOfStyles />
-        <FixedDimensionsBasics />
-        <FlexDimensionsBasics />
-        <FlexDirectionBasics />
-        <JustifyContentBasics />
+        
+        <IScrolledDownAndWhatHappenedNextShockedMe />
       </View>
     );
   }
 }
+
+//<HelloWorldApp />
+//<LotsOfGreetings />
+//<Bananas />
+//<BlinkApp />
+//<LotsOfStyles />
+//<FixedDimensionsBasics />
+//<FlexDimensionsBasics />
+//<FlexDirectionBasics />
+//<JustifyContentBasics />
+//<AlignItemsBasics />
+//<PizzaTranslator />
+//<ButtonBasics />
+//<Touchables />
 
 const styles = StyleSheet.create({
   container: {
