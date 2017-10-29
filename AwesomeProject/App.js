@@ -4,6 +4,7 @@ import LotsOfGreetings from './components/Greeting'
 import Bananas from './components/Bananas'
 import HelloWorldApp from './components/HelloWorld'
 import BlinkApp from './components/Blink'
+import LotsOfStyles from './components/LotsOfStyles'
 
 export default class App extends React.Component {
   render() {
@@ -13,6 +14,7 @@ export default class App extends React.Component {
         <LotsOfGreetings />
         <Bananas />
         <BlinkApp />
+        <LotsOfStyles />
       </View>
     );
   }
